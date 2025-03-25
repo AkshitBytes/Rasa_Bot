@@ -1,0 +1,58 @@
+{
+  "type": "IntentMaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "affirm": 0,
+        "anger": 1,
+        "anxiety": 2,
+        "ask_bot": 3,
+        "back": 4,
+        "crisis": 5,
+        "deny": 6,
+        "greet": 7,
+        "mood_great": 8,
+        "nlu_fallback": 9,
+        "out_of_scope": 10,
+        "restart": 11,
+        "session_start": 12,
+        "stress": 13,
+        "thanks": 14,
+        "vent": 15
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_affirm": 13,
+        "utter_anger": 14,
+        "utter_anxiety": 15,
+        "utter_ask_bot": 16,
+        "utter_crisis": 17,
+        "utter_deny": 18,
+        "utter_greet": 19,
+        "utter_mood_great": 20,
+        "utter_stress": 21,
+        "utter_thanks": 22,
+        "utter_vent": 23
+      },
+      "entities": {},
+      "slots": {},
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

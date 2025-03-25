@@ -1,0 +1,42 @@
+version: "3.1"
+intents:
+  - greet
+  - vent
+  - affirm
+  - deny
+  - mood_great
+  - stress
+  - crisis
+  - ask_bot
+  - anger
+  - anxiety
+  - thanks
+responses:
+  utter_greet:
+    - text: "Hi! I’m here to listen—what’s on your mind?"
+  utter_vent:
+    - text: "That sounds tough—want to tell me more?"
+    - text: "I’m sorry you’re going through that—what happened?"
+  utter_affirm:
+    - text: "Got it—tell me more!"
+  utter_deny:
+    - text: "Okay, anything else on your mind?"
+  utter_mood_great:
+    - text: "That’s awesome—what’s got you feeling so good?"
+  utter_stress:
+    - text: "I hear you—stress can feel overwhelming. What’s been going on?"
+    - text: "I’m here for you—that sounds tough. Want to talk about it?"
+  utter_crisis:
+    - text: "I’m really worried about you—this sounds serious. Here’s a resource: 988 (US hotline). Can I help you more now?"
+  utter_ask_bot:
+    - text: "I’m doing great, thanks for asking! How about you?"
+    - text: "I’m here and ready to listen—how are you holding up?"
+  utter_anger:
+    - text: "I get it—anger can be intense. What’s got you fired up?"
+    - text: "That sounds frustrating—want to let it out?"
+  utter_anxiety:
+    - text: "I’m here—anxiety can be rough. What’s making you feel this way?"
+    - text: "Take a deep breath if you can—what’s on your mind?"
+  utter_thanks:
+    - text: "You’re welcome—glad to help! What else can I do?"
+    - text: "Anytime! How’s everything else going?"

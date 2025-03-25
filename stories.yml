@@ -1,0 +1,46 @@
+version: "3.1"
+stories:
+  - story: greet path
+    steps:
+      - intent: greet
+      - action: utter_greet
+  - story: vent path
+    steps:
+      - intent: vent
+      - action: utter_vent
+  - story: mood_great path
+    steps:
+      - intent: mood_great
+      - action: utter_mood_great
+  - story: affirm path
+    steps:
+      - intent: affirm
+      - action: utter_affirm
+  - story: deny path
+    steps:
+      - intent: deny
+      - action: utter_deny
+  - story: stress path
+    steps:
+      - intent: stress
+      - action: utter_stress
+  - story: crisis path
+    steps:
+      - intent: crisis
+      - action: utter_crisis
+  - story: ask bot path
+    steps:
+      - intent: ask_bot
+      - action: utter_ask_bot
+  - story: anger path
+    steps:
+      - intent: anger
+      - action: utter_anger
+  - story: anxiety path
+    steps:
+      - intent: anxiety
+      - action: utter_anxiety
+  - story: thanks path
+    steps:
+      - intent: thanks
+      - action: utter_thanks

@@ -1,0 +1,78 @@
+version: "3.1"
+nlu:
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey there
+      - I need to talk
+      - Good morning
+      - Good evening
+  - intent: vent
+    examples: |
+      - I had a bad day
+      - I’m feeling down
+      - Today was a shitty day
+      - Everything’s a mess
+      - I am over it
+      - Today sucked
+  - intent: affirm
+    examples: |
+      - Yes
+      - Y
+      - Indeed
+      - Of course
+  - intent: deny
+    examples: |
+      - No
+      - N
+      - Never
+      - Not really
+  - intent: mood_great
+    examples: |
+      - Great
+      - Amazing
+      - I am feeling very good
+      - I am great
+      - Super stoked
+  - intent: stress
+    examples: |
+      - I’m so stressed
+      - Work is stressing me out
+      - I can’t handle this stress
+      - Stress is killing me
+      - I’m stressed out
+  - intent: crisis
+    examples: |
+      - I can’t go on
+      - I don’t want to live
+      - I feel hopeless
+      - I’m done with everything
+  - intent: ask_bot
+    examples: |
+      - How are you?
+      - Are you okay?
+      - How’s it going?
+      - What’s up with you?
+      - How you holding up?
+  - intent: anger
+    examples: |
+      - I’m so mad
+      - This is pissing me off
+      - I’m furious
+      - I can’t stand this
+      - I’m angry as hell
+  - intent: anxiety
+    examples: |
+      - I’m freaking out
+      - I’m so anxious
+      - I can’t calm down
+      - My nerves are shot
+      - I’m worried sick
+  - intent: thanks
+    examples: |
+      - Thanks
+      - Thank you
+      - Appreciate it
+      - That’s helpful
+      - Thanks a lot
